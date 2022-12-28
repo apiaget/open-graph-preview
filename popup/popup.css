@@ -1,0 +1,66 @@
+html, body {
+
+}
+
+#og-container {
+  width: 527px;
+}
+
+#text-container {
+  border-left: 1px solid #dadde1;
+  border-right: 1px solid #dadde1;
+  border-bottom: 1px solid #dddfe2;
+  border-right: 1px solid #dddfe2;
+  margin: 0;
+  padding: 10px 12px;
+  background-color: #f2f3f5;
+}
+
+#og_url {
+  color: #606770;
+  font-size: 12px;
+  line-height: 16px;
+  min-height: max-content;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#og_title {
+  font-weight: 600;
+  overflow: hidden;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 5px 0 0;
+  max-height: 110px;
+  word-wrap: break-word;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#og_description {
+  margin-top: 3px;
+  color: #606770;
+  font-size: 14px;
+  line-height: 20px;
+  word-break: break-word;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#img-container {
+  border-left: 1px solid #dadde1;
+  border-right: 1px solid #dadde1;
+  border-top: 1px solid #dadde1;
+  line-height: 0;
+}
+
+#info {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.cover {
+  object-fit: cover;
+}
